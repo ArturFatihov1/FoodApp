@@ -3,6 +3,7 @@ package com.example.test
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Adapter
+import android.widget.Button
 import android.widget.ImageView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -43,7 +44,6 @@ class SecondActivity : AppCompatActivity() {
         foodLt.add(card4)
         val card5 = DataFood("Углеводы","19,7 г")
         foodLt.add(card5)
-
 
 
         return foodLt
