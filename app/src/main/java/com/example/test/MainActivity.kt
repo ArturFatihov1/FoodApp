@@ -37,9 +37,7 @@ class MainActivity : AppCompatActivity() {
 
         navView.setNavigationItemSelectedListener {
             it.isChecked = true
-            when(it.itemId){
-                R.id.basket -> replaceFragment(BlankFragment(),it.title.toString())
-            }
+            // in future replace fragment
             true
         }
     }
